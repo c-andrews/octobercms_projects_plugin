@@ -20,7 +20,3 @@ navigation:
                 label: Projects
                 url: chrisandrews/work/projects
                 icon: icon-archive
-            reorder:
-                label: Order
-                url: chrisandrews/work/order
-                icon: icon-reorder
