@@ -1,0 +1,10 @@
+name: Projects
+modelClass: ChrisAndrews\Work\Models\Project
+form: $/chrisandrews/work/models/project/fields.yaml
+defaultRedirect: chrisandrews/work/projects
+create:
+    redirect: 'chrisandrews/work/projects/update/:id'
+    redirectClose: chrisandrews/work/projects
+update:
+    redirect: chrisandrews/work/projects
+    redirectClose: chrisandrews/work/projects

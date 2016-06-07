@@ -1,0 +1,26 @@
+plugin:
+    name: 'chrisandrews.work::lang.plugin.name'
+    description: 'A place to store my work'
+    author: 'Chris Andrews'
+    icon: oc-icon-archive
+    homepage: ''
+permissions:
+    manage_projects:
+        tab: 'Manage Projects'
+        label: 'Manage Projects'
+navigation:
+    work:
+        label: Work
+        url: chrisandrews/work/projects
+        icon: icon-archive
+        permissions:
+            - manage_projects
+        sideMenu:
+            projects:
+                label: Projects
+                url: chrisandrews/work/projects
+                icon: icon-archive
+            reorder:
+                label: Order
+                url: chrisandrews/work/order
+                icon: icon-reorder

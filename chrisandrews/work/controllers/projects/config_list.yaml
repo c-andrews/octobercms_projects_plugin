@@ -1,0 +1,15 @@
+title: Projects
+modelClass: ChrisAndrews\Work\Models\Project
+list: $/chrisandrews/work/models/project/columns.yaml
+recordUrl: 'chrisandrews/work/projects/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: 1
+showCheckboxes: 1
+showSorting: 1
+defaultSort:
+    column: sort_order
+    direction: asc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

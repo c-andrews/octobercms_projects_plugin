@@ -1,0 +1,33 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    slug:
+        label: Slug
+        type: text
+        searchable: true
+        sortable: true
+    role:
+        label: Role
+        type: text
+        sortable: true
+    agency:
+        label: Agency
+        type: text
+        sortable: true
+    client:
+        label: Client
+        type: text
+        sortable: true
+    tags:
+        label: Tags
+        type: text
+    link:
+        label: Links
+        type: text
+    hide:
+        label: Hidden
+        type: switch
+        sortable: true

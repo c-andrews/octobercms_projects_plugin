@@ -1,0 +1,5 @@
+title: Order
+modelClass: ChrisAndrews\Work\Models\Project
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar
